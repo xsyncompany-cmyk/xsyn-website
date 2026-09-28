@@ -1,0 +1,19 @@
+:root {
+  --xsyn-background: #ffffff;
+  --xsyn-foreground: #111111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--xsyn-background);
+  color: var(--xsyn-foreground);
+}
